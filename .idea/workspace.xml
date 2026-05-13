@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="2915eac6-0099-423c-92b0-724d332d276e" name="Changes" comment="initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-java-project/01-first-java-project/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-java-project/01-first-java-project/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-java-project/01-first-java-project/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-java-project/01-first-java-project/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-java-project/01-first-java-project/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-java-project/01-first-java-project/src/main/java/org/example/HelloWorld.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,22 +24,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SarEnderTarkanson"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SarEnderTarkanson&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SarEnderTarkanson/infinity-board-java-spring-course.git",
-    "accountId": "17fb6b44-bfc2-4bc1-89b5-7c0ac5723fd4"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SarEnderTarkanson/infinity-board-java-spring-course.git&quot;,
+    &quot;accountId&quot;: &quot;514a53f8-5f9d-46de-bb92-d9fb74b200ec&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1,
-  "fromUser": false
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3Dc1o4MgRHTC5dw9nUAhrFgVENi" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,21 +48,25 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.HelloWorld.executor": "Run",
+    "Application.org.example.HelloWorld.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/alpy/Desktop/Projects/infinity-board-java-spring-course",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "last_opened_file_path": "C:/Users/atark/Desktop/Courses/Coursera/infinity-board-java-spring-course",
+    "settings.editor.selected.configurable": "preferences.JavaFX"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="org.example.HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="ms-25" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="org.example.HelloWorld" />
-      <module name="01-first-java-project" />
+      <module name="infinity-board-java-spring-course" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -69,7 +79,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.org.example.HelloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -98,5 +108,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
