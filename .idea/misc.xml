@@ -8,6 +8,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/first-java-project/01-first-java-project/pom.xml" />
+        <option value="$PROJECT_DIR$/01-first-java-project/pom.xml" />
       </list>
     </option>
   </component>

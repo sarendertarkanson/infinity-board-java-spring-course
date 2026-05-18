@@ -1,4 +1,4 @@
-package org.example;
+package org.example.intro;
 
 public class ConditionalStatements {
     public static void main(String[] args) {
