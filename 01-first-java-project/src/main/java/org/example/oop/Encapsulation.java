@@ -9,20 +9,16 @@ class BankAccount {
         this.balance = 1000;
     }
 
-    public String getAccountHolder() {
-        return accountHolder;
-    }
-
     public double getBalance() {
         return balance;
     }
 
-    public void setAccountHolder(String accountHolder) {
-        this.accountHolder = accountHolder;
-    }
-
     public void setBalance(double balance) {
-        this.balance = balance;
+        if (balance >= 0) {
+            this.balance = balance;
+        } else {
+            System.out.println("Invalid balance amount");;
+        }
     }
 }
 
@@ -36,6 +32,8 @@ public class Encapsulation {
         bankAccount.setBalance(2000);
 
         System.out.println("Balance is " + bankAccount.getBalance());
+
+        bankAccount.setBalance(-1000);
 
 
     }
