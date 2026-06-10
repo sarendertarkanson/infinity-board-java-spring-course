@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2915eac6-0099-423c-92b0-724d332d276e" name="Changes" comment="interfaces and multiple inheritance">
-      <change afterPath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/exceptions/ExceptionHandling.java" afterDir="false" />
+    <list default="true" id="2915eac6-0099-423c-92b0-724d332d276e" name="Changes" comment="managing errors using try-catch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/exceptions/ExceptionHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/exceptions/ExceptionHandling.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,35 +50,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AbstractClass.executor": "Run",
-    "Application.ClassesAndObjects.executor": "Run",
-    "Application.ConstructorsAndMethods.executor": "Run",
-    "Application.Encapsulation.executor": "Run",
-    "Application.ExceptionHandling.executor": "Run",
-    "Application.HelloWorld.executor": "Run",
-    "Application.Inheritance.executor": "Run",
-    "Application.InterfacesAndMultipleInheritance.executor": "Run",
-    "Application.Polymorphism.executor": "Run",
-    "Application.org.example.HelloWorld.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/atark/Desktop/Courses/Coursera/infinity-board-java-spring-course",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.JavaFX"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AbstractClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassesAndObjects.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConstructorsAndMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Encapsulation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionHandling.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Inheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterfacesAndMultipleInheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Polymorphism.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/atark/Desktop/Courses/Coursera/infinity-board-java-spring-course&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ClassesAndObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.oop.ClassesAndObjects" />
@@ -253,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780897290158</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="managing errors using try-catch">
+      <option name="closed" value="true" />
+      <created>1781072771208</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1781072771209</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +278,8 @@
     <MESSAGE value="one interface many behaviours" />
     <MESSAGE value="working with abstract classes" />
     <MESSAGE value="interfaces and multiple inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="interfaces and multiple inheritance" />
+    <MESSAGE value="managing errors using try-catch" />
+    <option name="LAST_COMMIT_MESSAGE" value="managing errors using try-catch" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
