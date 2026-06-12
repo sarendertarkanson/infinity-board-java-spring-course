@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2915eac6-0099-423c-92b0-724d332d276e" name="Changes" comment="creating meaningful custom exceptions">
-      <change afterPath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/collections/ArrayListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/collections/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/collections/HashSetDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/collections/LinkedListDemo.java" afterDir="false" />
+    <list default="true" id="2915eac6-0099-423c-92b0-724d332d276e" name="Changes" comment="working with lists and sets">
+      <change afterPath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/collections/HashMapDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +58,7 @@
     "Application.ConstructorsAndMethods.executor": "Run",
     "Application.Encapsulation.executor": "Run",
     "Application.ExceptionHandling.executor": "Run",
+    "Application.HashMapDemo.executor": "Run",
     "Application.HashSetDemo.executor": "Run",
     "Application.HelloWorld.executor": "Run",
     "Application.Inheritance.executor": "Run",
@@ -275,7 +273,23 @@
       <option name="project" value="LOCAL" />
       <updated>1781108838417</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="working with lists and sets">
+      <option name="closed" value="true" />
+      <created>1781247645238</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1781247645238</updated>
+    </task>
+    <task id="LOCAL-00014" summary="working with lists and sets">
+      <option name="closed" value="true" />
+      <created>1781247652333</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1781247652333</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,10 +308,16 @@
     <MESSAGE value="interfaces and multiple inheritance" />
     <MESSAGE value="managing errors using try-catch" />
     <MESSAGE value="creating meaningful custom exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating meaningful custom exceptions" />
+    <MESSAGE value="working with lists and sets" />
+    <option name="LAST_COMMIT_MESSAGE" value="working with lists and sets" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/infinity_board_java_spring_course$HashMapDemo.ic" NAME="HashMapDemo Coverage Results" MODIFIED="1781275334072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.example.collections.*</FILTER>
+    </SUITE>
   </component>
 </project>
