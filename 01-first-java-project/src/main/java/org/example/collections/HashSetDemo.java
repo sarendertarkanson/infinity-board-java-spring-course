@@ -13,11 +13,11 @@ public class HashSetDemo {
         accounts.add(new BankAccount("456", "Bob", 2000));
         accounts.add(new BankAccount("123", "Charlie", 3000));
 
-        for (int i=0; i<accounts.size(); i++) {
+        for (int i = 0; i < accounts.size(); i++) {
             accounts.add(new BankAccount("123", "Alice", 1000));
         }
 
-        for  (BankAccount account : accounts) {
+        for (BankAccount account : accounts) {
             account.displayAccountInfo();
             System.out.println();
         }
