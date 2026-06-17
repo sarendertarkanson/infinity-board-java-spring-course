@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2915eac6-0099-423c-92b0-724d332d276e" name="Changes" comment="using maps effectively">
-      <change afterPath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/generics/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/generics/GenericClassDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/generics/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/generics/Utility.java" afterDir="false" />
+    <list default="true" id="2915eac6-0099-423c-92b0-724d332d276e" name="Changes" comment="introduction to generics">
+      <change afterPath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/collections/AutoBoxingUnboxing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/collections/PrimitiveVsWrapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +68,7 @@
     "Application.InterfacesAndMultipleInheritance.executor": "Run",
     "Application.LinkedListDemo.executor": "Run",
     "Application.Polymorphism.executor": "Run",
+    "Application.PrimitiveVsWrapper.executor": "Run",
     "Application.org.example.HelloWorld.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -302,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781275790734</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="introduction to generics">
+      <option name="closed" value="true" />
+      <created>1781281607185</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1781281607185</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +330,8 @@
     <MESSAGE value="creating meaningful custom exceptions" />
     <MESSAGE value="working with lists and sets" />
     <MESSAGE value="using maps effectively" />
-    <option name="LAST_COMMIT_MESSAGE" value="using maps effectively" />
+    <MESSAGE value="introduction to generics" />
+    <option name="LAST_COMMIT_MESSAGE" value="introduction to generics" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
