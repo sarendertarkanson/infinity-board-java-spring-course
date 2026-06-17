@@ -3,7 +3,7 @@ package org.example.collections;
 public class BankAccount {
     private String accountNumber;
     private String accountHolder;
-    private double balance;
+    protected double balance;
 
     public BankAccount(String accountNumber, String accountHolder, double balance) {
         this.accountNumber = accountNumber;

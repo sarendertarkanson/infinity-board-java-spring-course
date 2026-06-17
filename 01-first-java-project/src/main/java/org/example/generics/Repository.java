@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Repository<T> {
 
-    private List<T> items = new ArrayList<>();
+    private final List<T> items = new ArrayList<>();
 
     public void add(T item) {
         items.add(item);
