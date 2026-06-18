@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2915eac6-0099-423c-92b0-724d332d276e" name="Changes" comment="wrapper classes and autoboxing">
-      <change afterPath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/collections/SavingAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/collections/TypeError.java" afterDir="false" />
+    <list default="true" id="2915eac6-0099-423c-92b0-724d332d276e" name="Changes" comment="avoiding common type errors">
+      <change afterPath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/lambdaexpressions/AccountOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/lambdaexpressions/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/lambdaexpressions/LambdaExpression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/collections/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/collections/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/generics/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/generics/Repository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +68,7 @@
     "Application.HelloWorld.executor": "Run",
     "Application.Inheritance.executor": "Run",
     "Application.InterfacesAndMultipleInheritance.executor": "Run",
+    "Application.LambdaExpression.executor": "Run",
     "Application.LinkedListDemo.executor": "Run",
     "Application.Polymorphism.executor": "Run",
     "Application.PrimitiveVsWrapper.executor": "Run",
@@ -91,6 +91,11 @@
     "settings.editor.selected.configurable": "preferences.JavaFX"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.lambdaexpressions" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="ClassesAndObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.oop.ClassesAndObjects" />
@@ -319,7 +324,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781675214062</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="avoiding common type errors">
+      <option name="closed" value="true" />
+      <created>1781708362019</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1781708362019</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +355,8 @@
     <MESSAGE value="using maps effectively" />
     <MESSAGE value="introduction to generics" />
     <MESSAGE value="wrapper classes and autoboxing" />
-    <option name="LAST_COMMIT_MESSAGE" value="wrapper classes and autoboxing" />
+    <MESSAGE value="avoiding common type errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="avoiding common type errors" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
