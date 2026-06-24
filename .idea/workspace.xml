@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2915eac6-0099-423c-92b0-724d332d276e" name="Changes" comment="handling nulls with optional">
-      <change afterPath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/multithreading/ConcurrentProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/multithreading/SequentialProgram.java" afterDir="false" />
+    <list default="true" id="2915eac6-0099-423c-92b0-724d332d276e" name="Changes" comment="understanding threads">
+      <change afterPath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/multithreading/ExtendingThreadClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/multithreading/ImplementRunnableInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,10 +62,12 @@
     "Application.ConstructorsAndMethods.executor": "Run",
     "Application.Encapsulation.executor": "Run",
     "Application.ExceptionHandling.executor": "Run",
+    "Application.ExtendingThreadClass.executor": "Run",
     "Application.GenericClassDemo.executor": "Run",
     "Application.HashMapDemo.executor": "Run",
     "Application.HashSetDemo.executor": "Run",
     "Application.HelloWorld.executor": "Run",
+    "Application.ImplementRunnableInterface.executor": "Run",
     "Application.Inheritance.executor": "Run",
     "Application.InterfacesAndMultipleInheritance.executor": "Run",
     "Application.LambdaExpression.executor": "Run",
@@ -360,7 +362,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781799695427</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="understanding threads">
+      <option name="closed" value="true" />
+      <created>1782314359284</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1782314359284</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +397,8 @@
     <MESSAGE value="introduction to lambda expressions" />
     <MESSAGE value="processing data with streams" />
     <MESSAGE value="handling nulls with optional" />
-    <option name="LAST_COMMIT_MESSAGE" value="handling nulls with optional" />
+    <MESSAGE value="understanding threads" />
+    <option name="LAST_COMMIT_MESSAGE" value="understanding threads" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
