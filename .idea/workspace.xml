@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2915eac6-0099-423c-92b0-724d332d276e" name="Changes" comment="understanding java annotations">
-      <change afterPath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/annotations/CustomAnnotations.java" afterDir="false" />
+    <list default="true" id="2915eac6-0099-423c-92b0-724d332d276e" name="Changes" comment="creating custom annotations">
+      <change afterPath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/annotations/Reflection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -396,7 +396,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782366659317</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="creating custom annotations">
+      <option name="closed" value="true" />
+      <created>1782369819711</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1782369819711</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +435,8 @@
     <MESSAGE value="creating and managing threads" />
     <MESSAGE value="making code thread-safe" />
     <MESSAGE value="understanding java annotations" />
-    <option name="LAST_COMMIT_MESSAGE" value="understanding java annotations" />
+    <MESSAGE value="creating custom annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating custom annotations" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
