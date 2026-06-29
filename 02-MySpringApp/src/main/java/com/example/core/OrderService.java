@@ -1,12 +1,11 @@
 package com.example.core;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
 public class OrderService {
 
-    @Autowired
     private PaymentService paymentService;
 
 //    public OrderService(PaymentService paymentService) {
@@ -18,7 +17,9 @@ public class OrderService {
 //        this.paymentService = paymentService;
 //    }
 
-
+    public OrderService(@Qualifier("upi") PaymentService paymentService) {
+        this.paymentService = paymentService;
+    }
 
     public void placeOrder() {
         paymentService.processPayment();
