@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2915eac6-0099-423c-92b0-724d332d276e" name="Changes" comment="creating custom annotations">
-      <change afterPath="$PROJECT_DIR$/01-first-java-project/src/main/java/org/example/annotations/Reflection.java" afterDir="false" />
+    <list default="true" id="2915eac6-0099-423c-92b0-724d332d276e" name="Changes" comment="reflection basics for frameworks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,53 +50,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AbstractClass.executor": "Run",
-    "Application.Annotations.executor": "Run",
-    "Application.ArrayListDemo.executor": "Run",
-    "Application.AutoBoxingUnboxing.executor": "Run",
-    "Application.ClassesAndObjects.executor": "Run",
-    "Application.ConcurrentProgram.executor": "Run",
-    "Application.ConstructorsAndMethods.executor": "Run",
-    "Application.CustomAnnotations.executor": "Run",
-    "Application.Encapsulation.executor": "Run",
-    "Application.ExceptionHandling.executor": "Run",
-    "Application.ExtendingThreadClass.executor": "Run",
-    "Application.GenericClassDemo.executor": "Run",
-    "Application.HashMapDemo.executor": "Run",
-    "Application.HashSetDemo.executor": "Run",
-    "Application.HelloWorld.executor": "Run",
-    "Application.ImplementRunnableInterface.executor": "Run",
-    "Application.Inheritance.executor": "Run",
-    "Application.InterfacesAndMultipleInheritance.executor": "Run",
-    "Application.LambdaExpression.executor": "Run",
-    "Application.LinkedListDemo.executor": "Run",
-    "Application.NullHandling.executor": "Run",
-    "Application.Polymorphism.executor": "Run",
-    "Application.PrimitiveVsWrapper.executor": "Run",
-    "Application.RaceCondition.executor": "Run",
-    "Application.SequentialProgram.executor": "Run",
-    "Application.Streams.executor": "Run",
-    "Application.TypeError.executor": "Run",
-    "Application.org.example.HelloWorld.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/atark/Desktop/Courses/Coursera/infinity-board-java-spring-course",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AbstractClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Annotations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayListDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AutoBoxingUnboxing.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassesAndObjects.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConcurrentProgram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConstructorsAndMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CustomAnnotations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Encapsulation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionHandling.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExtendingThreadClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericClassDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashMapDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashSetDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImplementRunnableInterface.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Inheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterfacesAndMultipleInheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdaExpression.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedListDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NullHandling.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Polymorphism.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimitiveVsWrapper.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RaceCondition.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reflection.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SequentialProgram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Streams.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TypeError.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/atark/Desktop/Courses/Coursera/infinity-board-java-spring-course&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.multithreading" />
@@ -404,14 +404,21 @@
       <option name="project" value="LOCAL" />
       <updated>1782369819711</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="reflection basics for frameworks">
+      <option name="closed" value="true" />
+      <created>1782370553502</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1782370553502</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial commit" />
     <MESSAGE value="designing a java class" />
     <MESSAGE value="creating and using objects" />
     <MESSAGE value="constructors and methods in action" />
@@ -436,7 +443,8 @@
     <MESSAGE value="making code thread-safe" />
     <MESSAGE value="understanding java annotations" />
     <MESSAGE value="creating custom annotations" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating custom annotations" />
+    <MESSAGE value="reflection basics for frameworks" />
+    <option name="LAST_COMMIT_MESSAGE" value="reflection basics for frameworks" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
