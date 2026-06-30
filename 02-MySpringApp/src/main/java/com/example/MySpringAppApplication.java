@@ -8,10 +8,9 @@ public class MySpringAppApplication {
 
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
-        PaymentService bean1 = context.getBean(PaymentService.class);
-        PaymentService bean2 = context.getBean(PaymentService.class);
 
-        System.out.println(bean1 == bean2);
+        PaymentService paymentService = context.getBean(PaymentService.class);
+        paymentService.processPayment();
 
         context.close();
     }
